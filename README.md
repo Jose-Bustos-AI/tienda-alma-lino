@@ -28,6 +28,7 @@ config/settings_data.json  Colores, tipografías y ajustes del tema
 - Botón "Elegir talla" en las tarjetas de productos con tallas, para que nadie compre la talla equivocada sin querer
 - Ficha de producto con desplegables de envíos y cambios, guía de tallas y forma de hacer
 - Colecciones automáticas por etiqueta: Ropa, Complementos, Novedades y Más vendidos
+- Foto propia para cada color: al cambiar de color en la ficha cambia la foto
 - Fotos de producto creadas para la marca
 - Mercado España en euros, con el precio en formato español (69,90 €)
 - Envío estándar a 3,95 €, gratis a partir de 50 €, y envío exprés a 6,95 €
