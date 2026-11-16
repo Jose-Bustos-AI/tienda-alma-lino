@@ -183,6 +183,17 @@
         "button_label": "Descubre la colección",
         "button_link": "shopify://collections/all"
       }
+    },
+    "al_lookbook": {
+      "type": "al-lookbook",
+      "settings": {
+        "eyebrow": "Diario de verano",
+        "heading": "Los más queridos,",
+        "heading_accent": "pieza a pieza",
+        "text": "Las prendas y complementos que más se repiten en las maletas de este verano. Toca cualquiera para verla de cerca.",
+        "collection": "mas-vendidos",
+        "offset": 0
+      }
     }
   },
   "order": [
@@ -190,6 +201,7 @@
     "al_valores",
     "al_destacados",
     "al_ritual",
+    "al_lookbook",
     "al_categorias",
     "al_filosofia"
   ]

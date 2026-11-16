@@ -67,7 +67,7 @@
             "text_f9CFLH": {
               "type": "text",
               "settings": {
-                "text": "<p>Novedades de temporada, ideas para combinar y un 10 % en tu primer pedido.</p>",
+                "text": "<p>Novedades de temporada, ideas para combinar y un 10 % en tu primer pedido con el código BIENVENIDA10.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -169,10 +169,48 @@
         "padding-block-start": 20,
         "padding-block-end": 48
       }
+    },
+    "al_pie": {
+      "type": "al-pie",
+      "blocks": {
+        "l1": {
+          "type": "linea",
+          "settings": {
+            "text": "Envío en 24-48 h, gratis desde 50 €"
+          }
+        },
+        "l2": {
+          "type": "linea",
+          "settings": {
+            "text": "Cambios gratis durante 30 días"
+          }
+        },
+        "l3": {
+          "type": "linea",
+          "settings": {
+            "text": "Contacto",
+            "link": "shopify://pages/contact"
+          }
+        }
+      },
+      "block_order": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "settings": {
+        "text": "Ropa de lino y complementos hechos a mano en talleres pequeños del Mediterráneo.",
+        "menu_title": "Tienda",
+        "menu": "main-menu",
+        "help_title": "Ayuda",
+        "pay_title": "Pago seguro",
+        "pay_text": "Tienda de demostración: el pago es de prueba y no se cobra nada."
+      }
     }
   },
   "order": [
     "footer_m9NzUG",
+    "al_pie",
     "footer_utilities_jLGE8U"
   ]
 }

@@ -298,6 +298,93 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "text_al_confianza": {
+              "type": "text",
+              "settings": {
+                "text": "<p>✓ Envío gratis desde 50 €   ✓ Cambios gratis en 30 días   ✓ Entrega en 24-48 h</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font_size": "0.875rem"
+              },
+              "blocks": {}
+            },
+            "accordion_al": {
+              "type": "accordion",
+              "settings": {
+                "icon": "plus",
+                "dividers": true,
+                "type_preset": "h6"
+              },
+              "blocks": {
+                "r1": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Envíos y cambios",
+                    "open_by_default": false
+                  },
+                  "blocks": {
+                    "t": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Envío estándar en 24-48 h por 3,95 €, gratis a partir de 50 €. Envío exprés por 6,95 €. Tienes 30 días para cambiar la talla o devolver la prenda sin coste.</p>",
+                        "type_preset": "rte"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "t"
+                  ]
+                },
+                "r2": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Guía de tallas",
+                    "open_by_default": false
+                  },
+                  "blocks": {
+                    "t": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>XS: 34 · S: 36-38 · M: 40-42 · L: 44. El lino no cede: si estás entre dos tallas, elige la mayor. Las sandalias tallan normal.</p>",
+                        "type_preset": "rte"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "t"
+                  ]
+                },
+                "r3": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "heading": "Hecho con calma",
+                    "open_by_default": false
+                  },
+                  "blocks": {
+                    "t": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Cada pieza se confecciona en talleres pequeños de la costa mediterránea con fibras naturales. Producimos series cortas para no fabricar de más.</p>",
+                        "type_preset": "rte"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "t"
+                  ]
+                }
+              },
+              "block_order": [
+                "r1",
+                "r2",
+                "r3"
+              ]
             }
           },
           "block_order": [
@@ -305,7 +392,9 @@
             "divider_VJhene",
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
-            "text_aEtTtq"
+            "text_al_confianza",
+            "text_aEtTtq",
+            "accordion_al"
           ]
         }
       },

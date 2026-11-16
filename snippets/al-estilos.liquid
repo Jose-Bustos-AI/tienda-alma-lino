@@ -1,5 +1,5 @@
 {% doc %}
-  Dueño de los estilos compartidos de las secciones "al-" de Eres Bella
+  Dueño de los estilos compartidos de las secciones "al-" de Alma Lino
   (contenedor, antetítulo, títulos, botones, enlaces y cabecera de sección).
   No pinta nada: solo hace que su hoja de estilos entre en la página.
 
@@ -110,6 +110,23 @@
 
   .al-link:hover {
     color: #2c4a66;
+  }
+
+  @keyframes al-reveal {
+    from {
+      opacity: 0;
+      transform: translateY(32px);
+    }
+  }
+
+  @supports (animation-timeline: view()) {
+    @media (prefers-reduced-motion: no-preference) {
+      .al-reveal {
+        animation: al-reveal linear both;
+        animation-timeline: view();
+        animation-range: entry 0% entry 60%;
+      }
+    }
   }
 
   @media (prefers-reduced-motion: reduce) {

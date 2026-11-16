@@ -8,7 +8,7 @@ Tienda de ropa de lino y complementos de estilo mediterráneo: vestidos, monos, 
 Solo lo hecho a medida sobre el tema gratuito Horizon de Shopify: las secciones y fragmentos propios (prefijo `al-`), las plantillas que los colocan y los ajustes del tema. El resto de Horizon no se incluye.
 
 ```
-sections/al-*.liquid     Secciones propias de la portada
+sections/al-*.liquid     Secciones propias: portada, mosaico, categorías, pie...
 snippets/al-*.liquid     Estilos y fragmentos propios
 templates/*.json        Plantillas con las secciones colocadas
 sections/*-group.json   Cabecera y pie
@@ -18,7 +18,7 @@ config/settings_data.json  Colores, tipografías y ajustes del tema
 ## Cómo está hecha
 - Shopify, tienda de desarrollo con el plan Basic
 - Tema Horizon, el tema oficial y gratuito de Shopify
-- Seis secciones de portada programadas a medida en Liquid: portada, compromisos, novedades, look en tres piezas, categorías y forma de hacer
+- Ocho secciones programadas a medida en Liquid: portada, compromisos, novedades, look en tres piezas, mosaico editorial, categorías, forma de hacer y pie de página
 - Portada con titular animado, tarjeta flotante de producto, tres datos de confianza y cinta de frases en movimiento, que se desactiva si el visitante pide menos animación
 - Paleta, tipografías (Playfair Display y Work Sans) y esquinas rectas propias de la marca
 - Tienda, menús, correos y páginas de sistema en español
@@ -26,11 +26,12 @@ config/settings_data.json  Colores, tipografías y ajustes del tema
 ## Catálogo y compra
 - 16 productos con 57 variantes de color y talla, con su stock
 - Botón "Elegir talla" en las tarjetas de productos con tallas, para que nadie compre la talla equivocada sin querer
-- Precio rebajado tachado en las prendas en oferta
+- Ficha de producto con desplegables de envíos y cambios, guía de tallas y forma de hacer
 - Colecciones automáticas por etiqueta: Ropa, Complementos, Novedades y Más vendidos
 - Fotos de producto creadas para la marca
 - Mercado España en euros, con el precio en formato español (69,90 €)
 - Envío estándar a 3,95 €, gratis a partir de 50 €, y envío exprés a 6,95 €
+- Código de bienvenida BIENVENIDA10 con un 10 % de descuento
 - Pasarela de pago de prueba de Shopify activa
 - Pedido de prueba completo: carrito, envío calculado, pedido pagado y correo de confirmación en español
 
