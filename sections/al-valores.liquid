@@ -1,0 +1,100 @@
+{% comment %}
+  Section contract.
+  Franja de compromisos de la marca: de dos a cuatro bloques con título y texto corto.
+{% endcomment %}
+
+{%- render 'al-estilos' -%}
+
+<div class="al-valores">
+  <div class="al-wrap">
+    <ul class="al-valores__list" role="list">
+      {%- for block in section.blocks -%}
+        <li class="al-valores__item" {{ block.shopify_attributes }}>
+          <span class="al-valores__num" aria-hidden="true">{{ forloop.index | prepend: '0' }}</span>
+          <div>
+            <p class="al-valores__title">{{ block.settings.title | escape }}</p>
+            {%- if block.settings.text != blank -%}
+              <p class="al-valores__text">{{ block.settings.text | escape }}</p>
+            {%- endif -%}
+          </div>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</div>
+
+{% stylesheet %}
+  .al-valores {
+    background: #ebe3d5;
+    padding-block: clamp(28px, 4vw, 44px);
+  }
+
+  .al-valores__list {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: clamp(20px, 3vw, 40px);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .al-valores__item {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    min-width: 0;
+  }
+
+  .al-valores__num {
+    font-family: var(--font-heading--family);
+    font-size: 1.5rem;
+    line-height: 1;
+    color: #2c4a66;
+  }
+
+  .al-valores__title {
+    margin: 0;
+    font-family: var(--font-subheading--family);
+    font-weight: 500;
+    font-size: 0.98rem;
+    color: #23211d;
+  }
+
+  .al-valores__text {
+    margin: 4px 0 0;
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: #5a554c;
+  }
+
+  @media (max-width: 989px) {
+    .al-valores__list {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 479px) {
+    .al-valores__list {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "AL · Compromisos",
+  "tag": "section",
+  "max_blocks": 4,
+  "blocks": [
+    {
+      "type": "valor",
+      "name": "Compromiso",
+      "settings": [
+        { "type": "text", "id": "title", "label": "Título", "default": "Ingredientes naturales" },
+        { "type": "text", "id": "text", "label": "Texto", "default": "Más del 95 % de origen natural." }
+      ]
+    }
+  ],
+  "presets": [{ "name": "AL · Compromisos", "blocks": [{ "type": "valor" }, { "type": "valor" }, { "type": "valor" }, { "type": "valor" }] }]
+}
+{% endschema %}

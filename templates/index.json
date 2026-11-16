@@ -1,0 +1,196 @@
+{
+  "sections": {
+    "al_hero": {
+      "type": "al-hero",
+      "settings": {
+        "eyebrow": "Nueva colección · Verano",
+        "heading": "Vístete de",
+        "heading_accent": "verano mediterráneo",
+        "text": "Lino lavado, cortes que caen solos y complementos hechos a mano por artesanos de la costa. Ropa para vivirla, no para guardarla.",
+        "button_label": "Comprar la colección",
+        "button_link": "shopify://collections/ropa",
+        "button2_label": "Ver novedades",
+        "button2_link": "shopify://collections/novedades",
+        "fact1": "Envío gratis desde 50 €",
+        "fact2": "Cambios gratis en 30 días",
+        "fact3": "Hecho en talleres pequeños",
+        "image": "shopify://shop_images/alma-lino-portada.jpg",
+        "product": "mono-lino-aurora",
+        "card_label": "Nuevo",
+        "marquee": "100 % lino, Hecho a mano, Talleres pequeños, Envío en 24-48 h, Cambios gratis, Nueva colección de verano"
+      }
+    },
+    "al_valores": {
+      "type": "al-valores",
+      "blocks": {
+        "v1": {
+          "type": "valor",
+          "settings": {
+            "title": "100 % lino europeo",
+            "text": "Lavado a la piedra, suave desde el primer día."
+          }
+        },
+        "v2": {
+          "type": "valor",
+          "settings": {
+            "title": "Talleres pequeños",
+            "text": "Confección en la costa mediterránea."
+          }
+        },
+        "v3": {
+          "type": "valor",
+          "settings": {
+            "title": "Envío en 24-48 h",
+            "text": "Gratis a partir de 50 €."
+          }
+        },
+        "v4": {
+          "type": "valor",
+          "settings": {
+            "title": "Cambios gratis",
+            "text": "Tienes 30 días para probártelo con calma."
+          }
+        }
+      },
+      "block_order": [
+        "v1",
+        "v2",
+        "v3",
+        "v4"
+      ],
+      "settings": {}
+    },
+    "al_destacados": {
+      "type": "al-destacados",
+      "settings": {
+        "eyebrow": "Recién llegado",
+        "heading": "Novedades",
+        "collection": "novedades",
+        "limit": 8,
+        "link_label": "Ver todas"
+      }
+    },
+    "al_ritual": {
+      "type": "al-ritual",
+      "blocks": {
+        "p1": {
+          "type": "paso",
+          "settings": {
+            "product": "camisa-lino-brisa",
+            "title": "La camisa",
+            "text": "Abierta sobre un top o anudada a la cintura. La base de todo el armario de verano."
+          }
+        },
+        "p2": {
+          "type": "paso",
+          "settings": {
+            "product": "pantalon-lino-duna",
+            "title": "El pantalón",
+            "text": "Pierna ancha y tiro alto. Fresco a mediodía y elegante para la cena."
+          }
+        },
+        "p3": {
+          "type": "paso",
+          "settings": {
+            "product": "sandalias-piel-menorca",
+            "title": "Las sandalias",
+            "text": "Piel natural que se amolda al pie. Para caminar todo el día por el pueblo."
+          }
+        }
+      },
+      "block_order": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "settings": {
+        "eyebrow": "Cómo combinarlo",
+        "heading": "Un look, tres piezas",
+        "text": "No hace falta un armario lleno. Con tres prendas bien elegidas tienes resuelto el verano.",
+        "step_label": "Pieza"
+      }
+    },
+    "al_categorias": {
+      "type": "al-categorias",
+      "blocks": {
+        "c1": {
+          "type": "categoria",
+          "settings": {
+            "collection": "ropa",
+            "title": ""
+          }
+        },
+        "c2": {
+          "type": "categoria",
+          "settings": {
+            "collection": "complementos",
+            "title": ""
+          }
+        },
+        "c3": {
+          "type": "categoria",
+          "settings": {
+            "collection": "mas-vendidos",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "settings": {
+        "eyebrow": "Compra por categoría",
+        "heading": "Encuentra lo tuyo"
+      }
+    },
+    "al_filosofia": {
+      "type": "al-filosofia",
+      "blocks": {
+        "f1": {
+          "type": "punto",
+          "settings": {
+            "title": "Lino",
+            "text": "Fibra que respira, se cultiva con poca agua y mejora con cada lavado."
+          }
+        },
+        "f2": {
+          "type": "punto",
+          "settings": {
+            "title": "Hecho a mano",
+            "text": "Capazos y sandalias de artesanos de Baleares y Andalucía."
+          }
+        },
+        "f3": {
+          "type": "punto",
+          "settings": {
+            "title": "Sin prisas",
+            "text": "Colecciones cortas que no pasan de moda en una temporada."
+          }
+        }
+      },
+      "block_order": [
+        "f1",
+        "f2",
+        "f3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/alma-lino-capazo-tarifa.jpg",
+        "eyebrow": "Nuestra forma de hacer",
+        "heading": "Menos prendas, mejor hechas",
+        "text": "En Alma Lino trabajamos con talleres pequeños y fibras naturales. Cada pieza está pensada para durar muchos veranos y combinar con todo lo demás.",
+        "button_label": "Descubre la colección",
+        "button_link": "shopify://collections/all"
+      }
+    }
+  },
+  "order": [
+    "al_hero",
+    "al_valores",
+    "al_destacados",
+    "al_ritual",
+    "al_categorias",
+    "al_filosofia"
+  ]
+}
